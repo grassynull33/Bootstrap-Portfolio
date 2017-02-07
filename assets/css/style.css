@@ -86,14 +86,32 @@ h2 {
   line-height: 0;
 }
 
+.navbar-nav{
+  margin: 29px -27px;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+}
+
+.nav > li > a {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #4aaaa5;
+}
+
+.navbar-default .navbar-nav>li:not(:last-child) {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #efefef;
+}
+
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   color: #4aaaa5;
   background-color: transparent;
-}
-
-.navbar-right {
-  display: flex;
-  align-items: center;
 }
 
 #panel-row {
