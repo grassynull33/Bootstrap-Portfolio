@@ -33,6 +33,7 @@ html, body {
 p {
   line-height: 2;
   color: #777;
+  margin-top: -2px;
 }
 
 small {
@@ -56,6 +57,7 @@ h1, h2 {
   font-size: 36px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   margin-left: 15px;
+  margin-top: 15px;
 }
 
 h2 {
@@ -102,5 +104,24 @@ h2 {
 }
 
 .panel.panel-default {
-  padding: 20px;
+  padding: 24px 24px 0px 24px;
+}
+
+#headshot {
+  margin: 0 0 25px 0;
+}
+
+/*Stretch image beyond original size*/
+.row > div > img {
+  width: 100%;
+  display: block;
+}
+
+.img {
+  padding: 0 10px 20px 10px;
+  margin: -2px;
+}
+
+.gh-img {
+  margin-left: 4px;
 }
