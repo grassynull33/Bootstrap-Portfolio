@@ -92,7 +92,7 @@ h2 {
 }
 
 .navbar-nav{
-  margin: 29px -27px;
+  margin: 29px -13px;
 }
 
 .navbar-toggle {
@@ -149,6 +149,30 @@ h2 {
   margin-left: 4px;
 }
 
+.proj {
+  margin-bottom: -33px;
+}
+
+.proj > a {
+  display: block;
+  position: relative;
+  bottom: 80px;
+  color: #fff;
+  background-color: #4aaaa5;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+button[type=submit] {
+  margin: 10px 0 25px 0;
+  background-color: #4aaaa5;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 12px 30px 12px 30px;
+}
+
 @media(max-width:767px) {
   .navbar-brand {
     width: 100%;
@@ -167,5 +191,9 @@ h2 {
   .navbar-default .navbar-nav>li:not(:last-child) {
     margin-right: 35px;
     padding-right: 35px;
+  }
+
+  button[type=submit] {
+    width: 100%;
   }
 }
