@@ -85,6 +85,10 @@ h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   padding: 40px;
   line-height: 0;
+  -webkit-transition: background-color 2s; /* Safari */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: background-color 2s;
+  transition-timing-function: linear;
 }
 
 .navbar-nav{
