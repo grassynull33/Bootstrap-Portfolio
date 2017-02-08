@@ -38,6 +38,7 @@ p {
 
 small {
   color: #fff;
+  font-size: 12px;
 }
 
 .footer > .container {
@@ -142,4 +143,25 @@ h2 {
 
 .gh-img {
   margin-left: 4px;
+}
+
+@media(max-width:767px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav > li {
+    display: inline-flex;
+  }
+
+  .navbar-nav {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li:not(:last-child) {
+    margin-right: 35px;
+    padding-right: 35px;
+  }
 }
